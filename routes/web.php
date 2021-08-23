@@ -12,10 +12,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route:: get ('/numbers', function(){
 
-Route:: get ('/product', function(){
-    	$num1 =3;
-    	$num2 =2;
-    	$result =$num1 * $num2;
-    	return " The product of ".$num1." and ".$num2." is ".$result;
-    });
+    	return "[1, 2, 3, 4, 5, 6, 7, 8, 9]";
+    }); 
